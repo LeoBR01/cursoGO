@@ -25,7 +25,7 @@ func main() {
 	fmt.Println(reflect.TypeOf(slice)) // Slice aponta para um array
 
 	fmt.Println(reflect.TypeOf(array3))
-	
+
 	slice = append(slice, 18)
 	fmt.Println(slice)
 
@@ -34,5 +34,18 @@ func main() {
 
 	array2[1] = "Posicao alterada"
 	fmt.Println(slice2)
+
+	// Array Interno
+	slice3 := make([]float32, 10, 11)
+
+	slice3 = append(slice3, 5)
+	slice3 = append(slice3, 6) //Tentando estourar a capacidade do slice , que a principio nao tem limite
+							   //O go chega no limite e duplica o valor da capacidade, criando outro array para referenciar.
+
+	fmt.Println("slice3>:", slice3)
+	fmt.Println("slice3_tamanho:", len(slice3))
+	fmt.Println("slice3_capacidade:", cap(slice3))
+
+	
 
 }
