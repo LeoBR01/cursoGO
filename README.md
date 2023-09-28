@@ -7,3 +7,5 @@
 - int16,int32.. só altera na quantidade de bits do valor
 - Se Declarar apenas int, ele vai tomar como base o valor da arquitetura do seu PC
 - <nil> = null
+- Funcōes em GO podem ter mais de um retorno
+- Ignorar o valor da variavel usamos "_"
