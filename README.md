@@ -9,3 +9,5 @@
 - <nil> = null
 - Funcōes em GO podem ter mais de um retorno
 - Ignorar o valor da variavel usamos "_"
+- Nao podemos realizar operacoes com variaveis com tipos diferentes
+- Não existe operador ternário no Go 
