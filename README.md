@@ -12,3 +12,5 @@
 - Nao podemos realizar operacoes com variaveis com tipos diferentes
 - Não existe operador ternário no Go 
 - Em Go o mais próximo que temos de uma classe são os structs
+- Go não é uma linguagem orientada a objeto, portanto alguns detalhes como classes, herença, polimorfismo entre outras nao existem de maneira direta
+-
