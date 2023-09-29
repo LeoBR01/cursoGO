@@ -36,6 +36,11 @@ func main()  {
 	for chave, valor := range usuario {
         fmt.Println(chave, valor)
     }
+
+	// Loop infinito
+	for {
+        fmt.Println("Loop infinito")
+    }
 }
 
 // Nao podemos usar for range em structs 
